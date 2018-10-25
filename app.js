@@ -7,7 +7,7 @@ var app = express();
 var bodyParser = require('body-parser');
 //设置数据库
 var connection = mysql.createConnection({
-    host: '192.168.1.95',
+    host: 'localhost',
     user: 'root',
     password: '123456',
     database: 'school'
